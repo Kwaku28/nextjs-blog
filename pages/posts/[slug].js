@@ -1,8 +1,8 @@
+import PostContent from "../../components/posts/post-detail/post-content";
+
 function PostDetailPage() {
   return (
-    <div>
-      <h1>Post Detail Page</h1>
-    </div>
+    <PostContent />
   )
 }
 
