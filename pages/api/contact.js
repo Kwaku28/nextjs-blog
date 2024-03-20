@@ -23,14 +23,16 @@ async function handler(req, res) {
 
     let client;
 
+    const connectionString = `mongodb+srv://${process.env.MONGODB_UN}:${process.env.MONGODB_PW}@${process.env.MONGODB_CL}.qfkaw2q.mongodb.net/${process.env.MONGODB_DB}?retryWrites=true&w=majority&appName=${process.env.MONGODB_APP}`
+
     try {
-      client = await MongoClient.connect(process.env.MONGODB_URI)
+      client = await MongoClient.connect(connectionString)
     }catch(error) {
       res.status(500).json({ message: "Could not store message." });
       return;
     };
 
-    const db = client.db("nextjs-blog");
+    const db = client.db();
 
     try {
       const result = await db.collection("messages").insertOne(newMessage);
