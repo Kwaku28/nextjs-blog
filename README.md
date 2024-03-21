@@ -1,34 +1,138 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+  <br/>
 
-```bash
-npm run dev
-# or
-yarn dev
+  <h1><b>Nextjs-Blog</b></h1>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+- [💻 Available Scripts](#available-scripts)
+- [Deployment](#deploy-on-vercel)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Nextjs-blog] <a name="about-project"></a>
+
+This is a simple blog site. I post about programming and web development.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- **Nextjs**
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[create-next-app]**
+- **[Pages based routing]**
+- **[Components]**
+- **[Events]**
+- **[API]**
+- **[Connect to a database]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+
+To get a local copy up and running, follow these steps.
+
+### Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/Kwaku28/nextjs-blog.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install <a name="install"></a>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To install this project, run:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```sh
+  npm install
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Available Scripts <a name="available-scripts">
 
-## Learn More
+In the project directory, you can run:
 
-To learn more about Next.js, take a look at the following resources:
+### `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Runs the app in the development mode.\
+Open [http://http://localhost:3000](http://http://localhost:3000) to view it in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Deploy on Vercel
+## Deployment <a name="deploy-on-vercel"></a>
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Lawrence Amoafo**
+
+- GitHub: [@Kwaku28](https://github.com/Kwaku28)
+- LinkedIn: [lawrenceamoafo](https://linkedin.com/in/lawrence-amoafo-appoh)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Optimization]**
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Kwaku28/nextjs-blog/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a **STAR**
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
